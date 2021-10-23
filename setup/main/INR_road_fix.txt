@@ -1,0 +1,7 @@
+road_network = {
+	892 = 955	#Dura-Sinn
+	886 = 955	#Nuzi-Sinn
+	
+	4428 = 4432	#Prayaga-Sajahati
+	4431 = 4432	#Sumsumaragiri-Sajahati
+}
