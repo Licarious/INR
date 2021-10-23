@@ -81,12 +81,13 @@ uninhabitable = LIST { 1673 1749 1750 1870 4992 5436 5443 5444 5446 5572 5585 55
 
 #Lakes, Ranges:
 lakes = RANGE { 5982 5983 }
-lakes = RANGE { 6303 6306 } #INR Split 1a
+lakes = RANGE { 6303 6305 } #INR Split 1a
 lakes = RANGE { 6307 6310 } #INR Split 1b
-LAKES = RANGE { 6312 6350 }	#INR Split 2a
-LAKES = RANGE { 6352 6355 }	#INR Split 2b
-LAKES = RANGE { 6357 6372 }	#INR Split 2c
-LAKES = RANGE { 6374 6375 }	#INR Split 2d
+LAKES = RANGE { 6312 6332 }	#INR Split 2a
+LAKES = RANGE { 6334 6350 }	#INR Split 2b
+LAKES = RANGE { 6352 6355 }	#INR Split 2c
+LAKES = RANGE { 6357 6372 }	#INR Split 2d
+LAKES = RANGE { 6374 6375 }	#INR Split 2e
 lakes = RANGE { 6377 6396 }
 lakes = RANGE { 6400 6417 }
 lakes = LIST { 6421 } 		#INR Split 3a
@@ -99,7 +100,7 @@ sea_zones = RANGE { 4569 4588 } #Caspian INR
 sea_zones = RANGE { 2988 2999 } #Caspian INR
 lakes = RANGE { 8040 8041 } # Marius/ Eblu+Aksehir
 lakes = RANGE { 8052 8054 } # Marius
-lakes = LIST { 6299 6398 6419 6432 6434 6435 }
+lakes = LIST { 6299 6398 6419 6432 }
 
 #Major Rivers
 river_provinces = RANGE { 7666 7667 } # Nile River 2
@@ -144,8 +145,7 @@ river_provinces = RANGE { 8531 8534 } # Caspian Sea Tributaries-b 4
 river_provinces = RANGE { 8558 8561 } # Black Sea Tributaries Ex-c 4
 river_provinces = RANGE { 8551 8553 } # Maratania 3 
 river_provinces = RANGE { 8554 8557 } # Greace Ex 4 
-river_provinces = LIST { 6306 6351 6373 6356 6429 6430 6439 6440 6422 6434 6435 6443 } #Lakes turned into rivers 12 - 510 Total INR
-
+river_provinces = LIST { 6306 6351 6373 6356 6429 6430 6439 6440 6422 6434 6435 6443 6333 } #Lakes turned into rivers 13 - 511 Total INR
 
 
 

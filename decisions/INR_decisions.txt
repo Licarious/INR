@@ -3,6 +3,11 @@
 
 		potential = {
 			NOT = { has_country_modifier = INR_Tributary_Terrain }
+			#hide event from player for first year as the AI will click it within the first few days
+			OR = {
+				is_ai = yes
+				current_date > 451.1.1
+			}
 		}
 		allow = {
 			NOT = { has_country_modifier = INR_Tributary_Terrain }

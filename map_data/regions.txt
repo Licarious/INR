@@ -1,4 +1,4 @@
-central_italy_region = {		#9 areas
+﻿central_italy_region = {		#9 areas
 	areas = {
 		roma_area
 		south_etruria_area
@@ -1097,6 +1097,7 @@ black_sea_river_region = {
 		hypanis_river_area
 	}
 }
+
 cilician_river_region = {
 	areas = {
 		pyramus_river_area
